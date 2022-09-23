@@ -8,6 +8,6 @@ const {
 if (email.value ===""||password.value===""){
     return alert("Empty fields!");
 }
-console.log (`email:${email.value}, password:${password.value}`);
+console.log (`{email:${email.value}, password:${password.value}}`);
 event.currentTarget.reset();
 })
